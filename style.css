@@ -18,12 +18,11 @@
     
     .container{
         width: 70%;
-        height: 400px;
         margin: auto;
-        /* padding-top:30px; */
         border-radius: 10px;
-        /* padding-left: 60px; */
-        /* padding-top: 25px; */
+        padding-bottom: 4%;
+
+       
     }
 
 /* Toboolist Header */
@@ -43,7 +42,6 @@
     
 /* addtask addsection Menù */
     .menù-item{
-        /* height: 30px; */
         display: inline-block;
         width: auto;
         font-size: 13px;
@@ -53,6 +51,7 @@
         padding: 7px;
         margin-top: 15px;
         margin-bottom: 10px;
+        border-width: 0;
     }
     #menù1{
         background-color: #44ABF0;
@@ -73,3 +72,70 @@
         margin-bottom: 40px;
     }
 
+/* New task section  */
+    .section-titles{
+        font-weight: bolder;
+        font-size: 22px;
+        color: #444851;
+        margin-top: 20px;
+    }
+    section{
+        margin-left: 60px;
+        color: #444851;
+        font-weight:510;
+    }
+
+    .row {
+        padding: 10px;
+    }
+
+    .check {
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        border: 1px solid black;
+        color: black;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        font-size: small;
+    }
+
+    .done {
+        border-color: green;
+        color: green;
+    }
+
+    .not-done {
+        border-color: red;
+        color: red;
+    }
+
+    .category{
+        display: inline-block;
+        padding: 6px;
+        text-align: center;
+        border-radius: 20px;
+        font-size: 12px;
+        color: white;
+    }
+
+    .editorial{
+        background-color: #44ABF0;
+    }
+
+    .q1goals{
+        background-color:#9C72E4;
+    }
+    .recruiting{
+        background-color: #64C0A9;
+    }
+    .mobile{
+        background-color:#F29E33 ;
+    }
+    .website{
+        background-color:#D863A1 ;
+    } 
+    .sales{
+        background-color: #B0C926;
+    }
