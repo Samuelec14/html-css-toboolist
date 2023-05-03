@@ -14,12 +14,23 @@
     }
     .bg-white {
         background-color: white;    
-    }      
+    }  
+    
+    .container{
+        width: 70%;
+        height: 400px;
+        margin: auto;
+        /* padding-top:30px; */
+        border-radius: 10px;
+        /* padding-left: 60px; */
+        /* padding-top: 25px; */
+    }
 
 /* Toboolist Header */
     header{
         padding: 7px;
         padding-left: 20px;
+        margin-bottom: 45px;
     }
     h1{
         display: inline-block;
@@ -30,3 +41,35 @@
         vertical-align: middle;
     }
     
+/* addtask addsection Menù */
+    .menù-item{
+        /* height: 30px; */
+        display: inline-block;
+        width: auto;
+        font-size: 13px;
+        border-radius: 6px;
+        background-color: aqua;
+        text-align: center;
+        padding: 7px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    #menù1{
+        background-color: #44ABF0;
+        color: white;
+        margin-left: 60px;
+    }
+
+    #menù2{
+        margin-left: 5px;
+        background-color: #ffffff;
+        color: rgb(210, 210, 210);
+        border: 1px solid rgb(210, 210, 210);
+    }
+
+/* line  */
+    .line{
+        border: 2px solid #F6F8F9;
+        margin-bottom: 40px;
+    }
+
